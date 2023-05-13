@@ -1,0 +1,14 @@
+body{
+    margin: 0%;
+}
+#container{
+margin: 5%;
+}
+.entete{
+    background-color: rgb(0, 255, 255);
+    height: 50px;
+}
+.corp{
+    background-color: rgb(255, 238, 0);
+    height: 560px;
+}
