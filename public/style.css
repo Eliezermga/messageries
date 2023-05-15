@@ -37,5 +37,65 @@ body{
 }
 .screen .form-input{
     width: 100%;
-    margin: 20px;
+    margin: 20px 0px;
+}
+.screen h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #111;
+    border-bottom: 2px solid #555;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.screen .form-input label{
+    display: block;
+    margin-bottom: 10px;
+}
+.screen .form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    font-size: 16px;
+}
+.screen .form-input button{
+    padding: 10px 20px;
+    background-color: #111;
+    color: #eee;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.chat-screen .header{
+    background-color: #111;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.chat-screen .header .logo{
+    font-size: 18px;
+    color: #eee;
+    font-weight: 600;
+}
+.chat-screen .header button{
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    background: transparent;
+    color: #eee;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.chat-screen .messages{
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+.chat-screen .messages .message{
+    display: flex;
+    
 }
