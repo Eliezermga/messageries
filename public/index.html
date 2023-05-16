@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="app">
-        <div class="screen join-screen ">
+        <div class="screen join-screen active">
             <div class="form">
                 <h2>Se connecter</h2>
                 <div class="form-input">
@@ -22,31 +22,17 @@
                 </div>
             </div>
         </div>
-        <div class="screen chat-screen active">
+        <div class="screen chat-screen ">
             <div class="header">
                 <div class="logo">FUNchat</div>
-                <button class="sortir">Retour</button>
+                <button class="exit-chat">Retour</button>
             </div>
             <div class="messages">
-                <div class="mon-message">
-                    <div>
-                        <div class="name">Vous</div>
-                        <div class="text">Salut </div>
-                    </div>
-                </div>
-                <div class="chargement">
-                    Credo a rejoint la conversation
-                </div>
-                <div class="son-message">
-                    <div>
-                        <div class="name">Credo</div>
-                        <div class="text">Salut </div>
-                    </div>
-                </div>
+                <!--Dummy messages-->
             </div>
             <div class="typebox">
                 <input type="text" id="message-input">
-                <button id="envoyer">Envoyer</button>
+                <button id="send">Envoyer</button>
             </div>
         </div>
     </div>
