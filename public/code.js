@@ -1,7 +1,7 @@
 (function(){
 
     const app = document.querySelector(".app");
-    const sokcket = io();
+    const socket = io();
 
     let uname;
 
@@ -10,7 +10,7 @@
         if(username.length == 0){
             return;
         }
-        sokcket.emit("newuser",username);
+        socket.emit("newuser",username);
         uname = username;
         app.querySelector(".join-screen").classList.remove("active");
         app.querySelector(".chat-screen").classList.add("active");
