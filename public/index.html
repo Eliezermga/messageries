@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CHATon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="discuter.png" type="image/x-icon">
+</head>
+<body>
+    <div class="app">
+        <div class="screen join-screen active">
+            <div class="form">
+                <h2>Connexion à CHATon</h2>
+                <div class="form-input">
+                    <label>Nom de l'utilisateur</label>
+                    <input type="text" id="username" placeholder="Entrez votre nom">
+                </div>
+                <div class="form-input">
+                    <button id="join-user">Se connecter</button>
+                </div>
+            </div>
+        </div>
+        <div class="screen chat-screen">
+            <div class="header">
+                <div class="logo">CHATon</div>
+                <button id="exit-chat">Retour</button>
+            </div>
+            <div class="messages">
+            </div>
+            <div class="typebox">
+                <input type="text" id="message-input" placeholder="Tapez votre message">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="code.js"></script>
+</body>
+</html>
