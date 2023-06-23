@@ -7,7 +7,7 @@
 
     app.querySelector(".join-screen #join-user").addEventListener("click",function(){
         let username = app.querySelector(".join-screen #username").value;
-        if(username.length == 0){
+        if(username.length == 0){//cette condition s'applique si la longuer du champ du nom de l'utilisateur est 0 au premier ecran
             return;
         }
         socket.emit("newuser",username);
