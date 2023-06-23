@@ -3,7 +3,7 @@
     const app = document.querySelector(".app");//la variable app prend la valeur de class app du fichier index grace à l'attribut document.querySelector
     const socket = io();
 
-    let uname;
+    let uname;//cette variable sera utilisé en bas 
 
     app.querySelector(".join-screen #join-user").addEventListener("click",function(){
         let username = app.querySelector(".join-screen #username").value;
