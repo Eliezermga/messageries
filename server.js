@@ -20,6 +20,7 @@ io.on("connection",function(socket){
     });
 });
 
+//le port sur le quel ce serveur est executé
 server.listen(5000, () => {
     console.log('écouté au port :5000');
   });
