@@ -11,7 +11,7 @@
             return;
         }
         socket.emit("newuser",username);
-        uname = username;
+        uname = username;//la variable uname reçoit à son tour la valeur de username
         app.querySelector(".join-screen").classList.remove("active");//on supprime l'attribut active qui se trouve à la classe join-screen
         app.querySelector(".chat-screen").classList.add("active");//on le rajoute a la class chat-screen pour cette dernière puisse être affichée
     });
