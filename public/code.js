@@ -13,7 +13,7 @@
         socket.emit("newuser",username);
         uname = username;
         app.querySelector(".join-screen").classList.remove("active");//on supprime l'attribut active qui se trouve à la classe join-screen
-        app.querySelector(".chat-screen").classList.add("active");
+        app.querySelector(".chat-screen").classList.add("active");//on le rajoute a la class chat-screen pour cette dernière puisse être affichée
     });
 
     app.querySelector(".chat-screen #send-message").addEventListener("click",function(){
