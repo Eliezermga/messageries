@@ -1,4 +1,4 @@
-//
+//ce script est celui qui nous permet de créer un serveur nodejs 
 const express = require("express");
 const path = require("path");
 
