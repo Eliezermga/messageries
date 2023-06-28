@@ -169,7 +169,7 @@ body{
 .chat-screen .typebox button:hover{
     background-color: #072a8a;
 }
-@media screen and (max-width:1080px){
+@media screen and (max-width:1480px){
     body{
         height: 100%;
     }
