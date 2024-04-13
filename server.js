@@ -1,4 +1,4 @@
-//ce script est celui qui nous permet de créer un serveur nodejs 
+//ce script permet de créer mon serveur nodejs 
 const express = require("express");
 const path = require("path");
 
@@ -21,7 +21,7 @@ io.on("connection",function(socket){
     });
 });
 
-//le port sur le quel ce serveur est executé
+//le port sur le quel ce serveur est écouté
 server.listen(5000, () => {
     console.log('écouté au port :5000');
   });

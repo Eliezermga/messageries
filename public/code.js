@@ -1,6 +1,6 @@
 (function(){
 
-    const app = document.querySelector(".app");//la variable app prend la valeur de class app du fichier index grace à l'attribut document.querySelector
+    const app = document.querySelector(".app");//la constante app prend la valeur de class app du fichier index grace à l'attribut document.querySelector
     const socket = io();
 
     let uname;//cette variable sera utilisé en bas 
